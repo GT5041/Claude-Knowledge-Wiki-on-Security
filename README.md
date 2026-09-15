@@ -12,8 +12,9 @@ Claude セキュリティに特化した Wiki です。Claude のモデル本体
 | **[Claude セキュリティ](wiki/Claude-Security.ja.md)** | 日本語 | 11 のテーマ、7 つの役割別の読む順序、22 の FAQ、全記述が紐づく公式出典レジスタ |
 | **[Claude Code エンタープライズ導入事例](wiki/Claude-Code-Enterprise-Adoption.ja.md)** | 日本語 | Claude Code の企業導入事例 18 件と大規模展開 9 件の一覧。業種・地域・導入パターン・公表指標の索引つき |
 | **[Claude 公式ユースケース集](wiki/Claude-Use-Cases.ja.md)** | 日本語 | 公式が公表しているユースケース 46 件。開発ワークフロー、自動化・CI/CD、マルチエージェント、非開発部門での利用、API でのアプリ構築。目的別・立場別の索引つき |
+| **[Claude for Small Business](wiki/Claude-for-Small-Business.ja.md)** | 日本語 | 中小企業向けパッケージの概要・前提条件・同梱ワークフローと、導入前に確認すべきデータ取り扱いの論点 |
 
-The security page is available in both languages; the adoption and use-case pages are Japanese only for now.
+The security page is available in both languages; the adoption, use-case and small-business pages are Japanese only for now.
 
 Both security versions share the same `T#` / `I#` / `Q#` / `S#` identifiers, so a finding can be cited by ID regardless of which language the reader used.
 
