@@ -18,6 +18,12 @@ Both security versions share the same `T#` / `I#` / `Q#` / `S#` identifiers, so 
 
 両版は `T#` ／ `I#` ／ `Q#` ／ `S#` の ID 体系を共有しています。読者がどちらの言語を見ていても、ID で同じ箇所を参照できます。
 
+## Tools / ツール
+
+| Tool | What it does |
+|---|---|
+| **[実装方針アドバイザー](agent/README.md)** (`agent/`) | Claude Code で実装したいことを自然文で入力すると、不足情報を質問フォーマットで確認したうえで、実装案とセキュリティ考慮事項を Markdown レポートとして出力する対話型 CLI エージェント。セキュリティ考点は本リポジトリの Wiki の ID（`T#`/`Q#`）に紐づけて出力されます |
+
 ## Principles / 方針
 
 - **Traceable.** Every claim carries a source tag (`[S1]`, `[S2]`, …) that resolves in the page's source register. Claims sourced from pages that could not be directly retrieved are marked as such rather than asserted.
