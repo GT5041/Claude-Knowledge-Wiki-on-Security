@@ -1,0 +1,7 @@
+# 生成されたレポートはコミットしない（samples/ の見本のみ版管理する）
+reports/*.md
+reports/*.json
+
+# Python
+__pycache__/
+*.pyc

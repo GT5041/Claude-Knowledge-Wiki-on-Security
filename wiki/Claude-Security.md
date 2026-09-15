@@ -3,6 +3,8 @@
 > A single, source-traceable reference for how security works across Claude (the models, the API, Claude Code, and the enterprise products).
 >
 > **Last verified:** 2026-09-15 · **Maintainer:** repository owners · **Primary upstream source:** [Anthropic Trust Center](https://trust.anthropic.com)
+>
+> 🌐 **日本語版:** [Claude-Security.ja.md](Claude-Security.ja.md)
 
 Every claim on this page carries a source tag such as `[S3]`. Resolve tags in the [Source register](#source-register). Nothing here supersedes Anthropic's own documentation or your contract — when this page and an official source disagree, the official source wins, and the page should be corrected.
 
@@ -26,6 +28,8 @@ The same body of knowledge is indexed three ways so you can enter from whichever
 | `I#` | Interest — a role/audience lens, mapping to themes and questions | `I3` Compliance & privacy |
 | `Q#` | FAQ entry, tagged with the themes it belongs to | `Q3` What is ZDR? |
 | `S#` | Official source in the [Source register](#source-register) | `[S2]` Claude Code data usage docs |
+
+> **IDs are shared with the Japanese version.** `T5` is the same theme in both languages, `Q12` the same question, so audit notes can cite an ID regardless of which language the reader used.
 
 Each theme section lists its sources. Each FAQ answer links back to its theme(s) and its source(s). Each interest lists the themes and questions that matter to it. That makes any statement on this page walkable in both directions: *claim → source*, and *source → everything derived from it*.
 
@@ -520,7 +524,8 @@ Status legend: **✅ fetched** = content was retrieved and read while drafting t
 1. **Every new claim needs a source tag.** If you cannot tag it, it does not go on the page.
 2. **Re-verify quarterly, and on every Claude Code / API release that touches security defaults.** Update the *Last verified* date at the top and the Status column above.
 3. **Keep the three indexes in sync.** A new theme needs rows in the [Theme index](#theme-index) and in at least one [interest](#interest-index); a new FAQ entry needs its `→ Themes … · Sources …` footer and an anchor.
-4. **Numbers and product names drift** — retention periods, model designations, plan feature lists and policy versions change. Prefer linking to the source over restating it when a value is volatile.
-5. **Do not paste NDA-restricted material** (e.g. the full SOC 2 Type II report) into this repository. Link to the Trust Center request flow instead.
+4. **Keep IDs in parity with the Japanese page.** `T#` / `I#` / `Q#` / `S#` are shared with [Claude-Security.ja.md](Claude-Security.ja.md). Add an entry to one, add it to the other under the same ID.
+5. **Numbers and product names drift** — retention periods, model designations, plan feature lists and policy versions change. Prefer linking to the source over restating it when a value is volatile.
+6. **Do not paste NDA-restricted material** (e.g. the full SOC 2 Type II report) into this repository. Link to the Trust Center request flow instead.
 
 *This page is an internal study/reference aid maintained in this repository. It is not an Anthropic publication and carries no warranty. For contractual or audit purposes, cite the primary sources above.*
