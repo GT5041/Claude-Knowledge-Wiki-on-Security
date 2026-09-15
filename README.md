@@ -2,25 +2,39 @@
 
 Wiki specialized on Claude security — a source-traceable reference covering the Claude models, the Claude API, Claude Code, and the enterprise products.
 
-## Pages
+Claude セキュリティに特化した Wiki です。Claude のモデル本体、Claude API、Claude Code、エンタープライズ製品を対象に、出典を追跡できる形でまとめています。
 
-| Page | What it covers |
-|---|---|
-| **[Claude Security](wiki/Claude-Security.md)** | The main wiki page. 11 themes, 7 role-based reading paths, 22 FAQs, and a register of the official sources every claim is tagged to. |
+## Pages / ページ
 
-## Principles
+| Page | Language | What it covers |
+|---|---|---|
+| **[Claude Security](wiki/Claude-Security.md)** | English | 11 themes, 7 role-based reading paths, 22 FAQs, and a register of the official sources every claim is tagged to |
+| **[Claude セキュリティ](wiki/Claude-Security.ja.md)** | 日本語 | 11 のテーマ、7 つの役割別の読む順序、22 の FAQ、全記述が紐づく公式出典レジスタ |
+
+Both versions share the same `T#` / `I#` / `Q#` / `S#` identifiers, so a finding can be cited by ID regardless of which language the reader used.
+
+両版は `T#` ／ `I#` ／ `Q#` ／ `S#` の ID 体系を共有しています。読者がどちらの言語を見ていても、ID で同じ箇所を参照できます。
+
+## Principles / 方針
 
 - **Traceable.** Every claim carries a source tag (`[S1]`, `[S2]`, …) that resolves in the page's source register. Claims sourced from pages that could not be directly retrieved are marked as such rather than asserted.
+  — すべての記述に出典タグを付け、出典レジスタで解決できるようにしています。直接取得できなかった情報源に基づく記述は、断定せずその旨を明示しています。
 - **Three ways in.** The same material is indexed *by theme* (`T1`–`T11`), *by interest / role* (`I1`–`I7`), and *by question* (`Q1`–`Q22`).
+  — 同じ内容を「テーマ別」「関心・役割別」「質問別」の 3 軸で索引化しています。
 - **Primary sources win.** Anthropic's own documentation and your contract supersede anything written here. Start from the [Anthropic Trust Center](https://trust.anthropic.com).
+  — 公式情報と契約が優先します。まず [Anthropic Trust Center](https://trust.anthropic.com) を参照してください。
 
-## Key upstream sources
+## Key upstream sources / 主な一次情報源
 
 - [Anthropic Trust Center](https://trust.anthropic.com) — certifications, sub-processors, security documentation
 - [Claude Code — Security](https://code.claude.com/docs/en/security) · [Data usage](https://code.claude.com/docs/en/data-usage) · [Zero data retention](https://code.claude.com/docs/en/zero-data-retention) · [Legal and compliance](https://code.claude.com/docs/en/legal-and-compliance)
 - [Claude API — API and data retention](https://platform.claude.com/docs/en/manage-claude/api-and-data-retention) · [Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api)
 - [Securely deploying AI agents](https://code.claude.com/docs/en/agent-sdk/secure-deployment) · [Mitigate jailbreaks and prompt injections](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks)
 
-## Contributing
+## Contributing / メンテナンス
 
-See [Maintaining this page](wiki/Claude-Security.md#maintaining-this-page). In short: tag every claim with a source, re-verify quarterly, keep the theme/interest/FAQ indexes in sync, and never paste NDA-restricted material into this repository.
+See [Maintaining this page](wiki/Claude-Security.md#maintaining-this-page) / [本ページのメンテナンス](wiki/Claude-Security.ja.md#maintain).
+
+In short: tag every claim with a source, re-verify quarterly, keep the theme/interest/FAQ indexes in sync, keep the two language versions at ID parity, and never paste NDA-restricted material into this repository.
+
+要点：すべての記述に出典タグを付ける／四半期ごとに再確認する／3 つの索引を同期させる／日英で ID を揃える／NDA 対象資料は本リポジトリに置かない。
