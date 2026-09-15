@@ -10,8 +10,11 @@ Claude セキュリティに特化した Wiki です。Claude のモデル本体
 |---|---|---|
 | **[Claude Security](wiki/Claude-Security.md)** | English | 11 themes, 7 role-based reading paths, 22 FAQs, and a register of the official sources every claim is tagged to |
 | **[Claude セキュリティ](wiki/Claude-Security.ja.md)** | 日本語 | 11 のテーマ、7 つの役割別の読む順序、22 の FAQ、全記述が紐づく公式出典レジスタ |
+| **[Claude Code エンタープライズ導入事例](wiki/Claude-Code-Enterprise-Adoption.ja.md)** | 日本語 | Claude Code の企業導入事例 18 件と大規模展開 9 件の一覧。業種・地域・導入パターン・公表指標の索引つき |
 
-Both versions share the same `T#` / `I#` / `Q#` / `S#` identifiers, so a finding can be cited by ID regardless of which language the reader used.
+The security page is available in both languages; the adoption page is Japanese only for now.
+
+Both security versions share the same `T#` / `I#` / `Q#` / `S#` identifiers, so a finding can be cited by ID regardless of which language the reader used.
 
 両版は `T#` ／ `I#` ／ `Q#` ／ `S#` の ID 体系を共有しています。読者がどちらの言語を見ていても、ID で同じ箇所を参照できます。
 
